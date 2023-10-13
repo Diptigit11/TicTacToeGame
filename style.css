@@ -14,7 +14,7 @@
     font-size: 40px;
     margin-top: 10%;
 }
-.display{
+.display,h2{
 color: white;
 font-size: 25px;
 text-align: center;
@@ -47,6 +47,7 @@ margin-bottom: 1em;
 .playerO{
     color: #498afb;
 }
+
 .controls{
     display: flex;
     flex-direction: row;
@@ -54,7 +55,7 @@ margin-bottom: 1em;
     align-items: center;
     margin-top: 1em;
 }
-#reset{
+#playWithAI,#playWithFriend{
     background-color: #ff3860;
     color: white;
     padding: 8px;
@@ -63,4 +64,4 @@ margin-bottom: 1em;
     font-size: 20px;
     margin-left: 1em;
     cursor: pointer;
-}
+} 
